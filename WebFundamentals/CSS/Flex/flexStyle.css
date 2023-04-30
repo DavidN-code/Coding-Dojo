@@ -1,0 +1,17 @@
+.container{
+    width: 600px;
+    height:300px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.col{
+    width: 200px;
+    padding: 10px;
+    background-color: orange;
+    /* display: inline-block; */
+    border-right: 2px solid red;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid purple;
+}

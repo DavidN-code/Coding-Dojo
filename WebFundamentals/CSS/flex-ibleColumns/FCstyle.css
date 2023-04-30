@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+body{
+    margin: 0px;
+}
+.row{
+    display: flex;
+    width: 930px;
+    height: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col{
+    background-color:rgb(4, 185, 185);
+    flex: 1;
+    padding: 20px;
+    margin: 0px 15px;
+
+}
+.col-2{
+    background-color:rgb(4, 185, 185);
+    flex: 2;
+    padding: 20px;
+    margin: 0px 15px;
+}
+.col-3{
+    background-color:rgb(4, 185, 185);
+    flex: 3;
+    padding: 20px;
+    margin: 0px 15px;
+}

@@ -1,0 +1,25 @@
+.firstButton{
+    border-radius: 30px;
+    border: 5px solid green;
+    padding: 5px 50px 5px 50px;
+    color: green;
+    font-weight: bold;
+}
+.secondButton{
+    border-radius: 50px;
+    border: 5px rgb(89, 211, 215);
+    padding: 4px 12px 4px 12px;
+    color: white;
+    font-weight: light;
+    background-color: rgb(89, 211, 215);
+    font-size: 170%;
+}
+.thirdButton{
+    border: 5px;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    /* font-weight: 100; */
+    background-color: rgb(44, 68, 186);
+    font-size: 125%;
+    box-shadow: 7px 7px 2px 3px orange, -5px -5px 4px rgb(255, 217, 0), inset 2em 1em green;
+}

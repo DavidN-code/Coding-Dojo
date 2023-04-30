@@ -1,0 +1,101 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Fixed width container class that will "auto-center" itself */
+.container {
+width: 1200px;
+margin: 0 auto;
+}
+/*  favorite button style from the Button Up assignment*/
+.btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    width:100px;
+    height: 50px;
+    box-shadow: 4px 4px red, -1em 0 yellow, inset 2em 1em purple;
+    background-color: yellowgreen;
+}
+/*  .row and .col classes from the FLEX-IBLE Columns assignment*/
+.row{
+    display: flex;
+    width: 930px;
+    height: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col{
+    background-color:rgb(4, 185, 185);
+    flex: 1;
+    padding: 20px;
+    margin: 0px 15px;
+
+}
+.col-2{
+    background-color:rgb(4, 185, 185);
+    flex: 2;
+    padding: 20px;
+    margin: 0px 15px;
+}
+.col-3{
+    background-color:rgb(4, 185, 185);
+    flex: 3;
+    padding: 20px;
+    margin: 0px 15px;
+}
+
+/* .navbar classes from Flex Navbar assignment*/
+.nav{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    width: 890px;
+    height: 50px;
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+    padding-left: 4px;
+}
+.nav-links{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+li{
+    width: 105px;
+    font-size: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+h1{
+    margin-right: 328px;
+}
+.btn{
+    background-color:rgb(0, 136, 255);
+    margin-right: 17px;
+    box-shadow: 3px 3px rgb(216, 199, 4);
+}
+.active{
+    font-weight:bold;
+    margin-right: 15px;
+}
+/* some classes I like*/
+.flex{
+    display: flex;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.alignCenter{
+    align-items: center;
+}
+.dirFlex{
+    flex-direction: row-reverse;
+}

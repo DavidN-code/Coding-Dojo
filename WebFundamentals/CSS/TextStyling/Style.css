@@ -1,0 +1,42 @@
+.blackbg{
+    background-color: black;
+}
+.bluefont{
+    color: skyblue;
+}
+.whitefont{
+    color: whitesmoke;
+}
+.courier{
+    font-family: courier;
+}
+.bigfont{
+    font-weight: bold;
+}
+.center{
+    text-align: center;
+}
+.purplebg{
+    background-color: purple;
+}
+.italic{
+    font-style: italic;
+}
+.helv{
+    font-family: helvetica;
+}
+.skybg{
+    background-color: lightblue;
+}
+.righta{
+    text-align: right;
+}
+.underl{
+    text-decoration: underline;
+}
+.arial{
+    font-family: monospace;
+}
+.light{
+    font-weight: 100;
+}

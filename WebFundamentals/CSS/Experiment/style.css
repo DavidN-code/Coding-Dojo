@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(216, 180, 0);
+}
+h1{
+    background-color: rgb(209, 115, 0);
+    /* color: rgb(14, 55, 102); */
+    font-size: 50px;
+}
+.green{ 
+    background-color: green
+}
+#red{
+    background-color: rgb(193, 20, 20)
+}
+.center{
+    text-align: center;
+}
+#purple{
+    color:purple;
+}
+.right{
+    text-align: right;
+}
+#blue{
+    color:rgb(37, 37, 243)
+}
+.white{
+    color:rgb(189, 189, 189)
+}
+.backwhite{
+    background-color: rgb(181, 181, 181)
+}
+#test{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    background: linear-gradient(#8c00bf, #0b7f00 80%, #c34b00 80%);
+    /* background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%); */
+
+}
+#first{
+    margin-top: 140px;
+    margin-left: 50px;
+}
+/* wildcard selector
+and draw outline around every element
+* {
+    outline: 1px solid red;
+} */
+.question p{
+    color: purple;
+    font-style: italic;
+}
+input{
+    padding: 10px;
+    border: 5px solid blue;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid purple;
+}
+input[type="submit"] {
+    color: white;
+    background-color: rgb(210, 133, 1);
+}
+.underline{
+    text-decoration: underline;
+}
+.through{
+    text-decoration: line-through;
+}
+.italic{
+    font-style: italic;
+}
+.light{
+    font-weight: 1000;
+}
+.bold{
+    font-weight: bold;
+}
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.cupcake{
+    background-image: url("https://joyfoodsunshine.com/wp-content/uploads/2021/12/best-vanilla-cupcakes-recipe-1x1-1.jpg");
+    background-size: 100%;
+}
+.border{
+    border-right: 5px dotted green;
+    border-bottom: 2px solid red;
+    border-top: 8px dashed darkorange;
+    border-left: 7px double purple;
+}
+.skybluebg{
+    background-color: skyblue;
+}
+.borderradius{
+    border-radius: 5px;
+}
+#container{
+    background-color: rgb(210, 116, 0);
+    width: 960px;
+    border-right: 5px solid rgb(72, 72, 171);
+    /* overflow: hidden;
+    height: auto; */
+}
+#box1{
+    background-color: rgb(211, 3, 3);
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 20px;
+    padding: 20px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
