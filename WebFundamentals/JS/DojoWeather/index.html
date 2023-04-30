@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- top -->
+    <div class="top flex justify-center space-between align-center">
+        <h1>DojoWeather</h1>
+        <h2 onclick="alert('Loading weather report...')">Burbank</h2>
+        <h2 onclick="alert('Loading weather report...')">Chicago</h2>
+        <h2 onclick="alert('Loading weather report...')">Dallas</h2>
+    </div>
+<!--bottom  -->
+    <div class="bottom">
+        <div class="topmain flex align-center space-between">
+            <h1>San Jose</h1>
+            <label for="temp">show temperature in </label>
+            <select name="showtemp" id="temp" onchange="tempchange('hi', 'lo','hi1','lo1','hi2','lo2','hi3','lo3',this)">
+                <option value="F&#176;">F&#176;</option>
+                <option value="C&#176;">C&#176;</option>
+            </select>
+        </div>
+        <div class="middlemain flex space-between">
+            <div class="today card">
+                <h2>Today</h2>
+                <img src="./assets/some_rain.png" alt="rain pic" class="border img">
+                <h3>some rain</h3>
+                <div class="temps flex space-between gap">
+                    <h2 class="high"><span id="hi">75</span>&#176;</h2>
+                    <h2 class="low"><span id="lo">65</span>&#176;</h2>
+                </div>
+            </div>
+            <div class="tomorrow card">
+                <h2>Tomorrow</h2>
+                <img src="./assets/some_sun.png" alt="sun pic" class="border img">
+                <h3>some sun</h3>
+                <div class="temps flex space-between gap">
+                    <h2 class="high"><span id="hi1">80</span>&#176;</h2>
+                    <h2 class="low"><span id="lo1">66</span>&#176;</h2>
+                </div>
+            </div>
+            <div class="friday card">
+                <h2>Friday</h2>
+                <img src="./assets/some_clouds.png" alt="cloud pic" class="border img">
+                <h3>some clouds</h3>
+                <div class="temps flex space-between gap">
+                    <h2 class="high"><span id="hi2" >69</span>&#176;</h2>
+                    <h2 class="low"><span id="lo2">61</span>&#176;</h2>
+                </div>
+            </div>            
+            <div class="saturday card">
+                <h2>Saturday</h2>
+                <img src="./assets/some_sun.png" alt="sun pic" class="border img">
+                <h3>some sun</h3>
+                <div class="temps flex space-between gap">
+                    <h2 class="high"><span id="hi3">78</span>&#176;</h2>
+                    <h2 class="low"><span id="lo3">70</span>&#176;</h2>
+                </div>
+            </div>        
+        </div>
+
+<!-- cookie -->
+
+        <div class="cookie flex space-between align-center">
+            <img src="./assets/cookie.png" alt="cookie">
+            <div>    
+                <h3 class="cookieh">Stop!  Cookie Time</h3>
+                <p class="cookiep">We use cookies (sadlly not the edible ones) to personalize content and ads, 
+                    to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+            </div>    
+            <button class="cookiebutton" onclick="hide('.cookie')">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
