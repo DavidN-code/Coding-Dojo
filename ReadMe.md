@@ -1,0 +1,1 @@
+Assignments, projects, and practice for the full-time Coding Dojo bootcamp April 2023 cohort
