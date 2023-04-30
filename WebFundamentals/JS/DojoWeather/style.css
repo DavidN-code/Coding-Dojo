@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.align-center{
+    align-items: center;
+}
+
+
+/* top */
+.top{
+    background-color: rgb(170	196	246	);
+    padding: 1rem 12rem;
+    color: white;
+    gap: 3rem;
+}
+.top h1{
+    font-size: 3.8rem;
+    margin-right: 9rem;
+    font-weight: bold;
+}
+.top h2{
+    font-size: 2rem;
+}
+
+/* bottom */
+.bottom{
+    padding: 1rem 12rem;
+}
+.topmain{
+    margin-top: .5rem ;
+    margin-bottom: 2rem;
+}
+.topmain h1{
+    font-size: 2.7rem;
+    margin-right: 42rem;
+}
+
+.card{
+    background-color: lightgrey;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.3rem;
+}
+.gap{
+    gap:6rem;
+}
+.border{
+    border-radius: 50%;
+}
+.card img{
+    width:75%;
+    margin-top: 1.7rem;
+    margin-bottom: 1.9rem;
+}
+.card h2{
+    font-size: 2.1rem;
+}
+.card h3{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.temps{
+    gap: 5.1rem;
+    font-size: 1.2rem;
+}
+.high{
+    color: rgb(174	47	43)	;
+}
+.low{
+    color: rgb(76	119	224)	;
+}
+
+/* Cookie  */
+.cookie{
+    position:fixed;
+    bottom: 0px;
+    width:61.6rem;
+    margin-top: .5rem;;
+    padding: 1rem;
+    background-color: lightgrey;
+    border: 3px solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.cookie img{
+    width: 6rem;
+}
+.cookieh{
+    font-size:1.7rem;
+}
+.cookiebutton{
+    background-color: skyblue;
+    width: 9rem;
+    height:3rem;
+    font-size: 1.4rem;
+}
+.cookiep{
+    font-size:1.5rem;
+    width: 40rem;
+    margin-right: 1rem;
+}
